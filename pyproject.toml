@@ -4,4 +4,9 @@ version = "1.0.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "bittensor-subnet-template",
+]
+
+[tool.uv.sources]
+bittensor-subnet-template = { path = "../../Bittensor/bittensor-subnet-template/dist/bittensor_subnet_template-0.1.0-py3-none-any.whl" }
